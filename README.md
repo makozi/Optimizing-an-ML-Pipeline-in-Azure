@@ -16,7 +16,7 @@ The classification goal is to predict if the client will subscribe (yes/no) a te
 
 Input variables:
 
-#### bank client data:
+#### Bank client data:
 
 1. age (numeric)
 2. job : type of job (categorical: 'admin.','blue-collar','entrepreneur','housemaid','management','retired','self-employed','services','student','technician','unemployed','unknown')
@@ -26,7 +26,7 @@ Input variables:
 6. housing: has housing loan? (categorical: 'no','yes','unknown')
 7. loan: has personal loan? (categorical: 'no','yes','unknown')4
 
-##### related with the last contact of the current campaign:
+##### Related with the last contact of the current campaign:
 
 8. contact: contact communication type (categorical: 'cellular','telephone')
 9. month: last contact month of year (categorical: 'jan', 'feb', 'mar', ..., 'nov', 'dec')
@@ -34,7 +34,7 @@ Input variables:
 11. duration: last contact duration, in seconds (numeric). Important note: this attribute highly affects the output target (e.g., if duration=0 then y='no'). Yet, the duration is not known before a call is performed. Also, after the end of the call y is obviously known. Thus, this input should only be included for benchmark purposes and should be discarded if the intention is to have a realistic predictive model.
 
 
-#### other attributes:
+#### Other attributes:
 
 12. campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact)
 13. pdays: number of days that passed by after the client was last contacted from a previous campaign (numeric; 999 means client was not previously contacted)
@@ -42,7 +42,7 @@ Input variables:
 15. poutcome: outcome of the previous marketing campaign (categorical: 'failure','nonexistent','success')
 
 
-#### social and economic context attributes
+#### Social and economic context attributes
 16. emp.var.rate: employment variation rate - quarterly indicator (numeric)
 17. cons.price.idx: consumer price index - monthly indicator (numeric)
 18. cons.conf.idx: consumer confidence index - monthly indicator (numeric)
@@ -169,7 +169,7 @@ There were two approach taken to solve the problem by creating pipelines:
 
 ## License
 
-See the ![LICENSE](https://github.com/makozi/Udacity-ML-Engineer-Capstone-Project/blob/master/LICENSE) file for more details.
+See the [LICENSE](https://github.com/makozi/Udacity-ML-Engineer-Capstone-Project/blob/master/LICENSE) file for more details.
 
 
 By Marizu-Ibewiro Makozi.
