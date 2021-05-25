@@ -88,11 +88,11 @@ There were two approach taken to solve the problem by creating pipelines:
 6. Get the best run model and its metrics.
 7. Save the model.
    
-![HyperDrive Runs]()
+![HyperDrive Runs](https://github.com/makozi/Optimizing-an-ML-Pipeline-in-Azure/blob/main/Images/Udacity-Project-Run.PNG)
 
-![HyperDrive Child Runs]()
+![HyperDrive Child Runs](https://github.com/makozi/Optimizing-an-ML-Pipeline-in-Azure/blob/main/Images/Udacity-Project-Child-Runs.PNG)
 
-![HyperDrive Child Runs]()
+![HyperDrive Child Runs](https://github.com/makozi/Optimizing-an-ML-Pipeline-in-Azure/blob/main/Images/Udacity-Project-Child-Runs-Primary-Metrics.PNG)
 
 **Benefits of parameter sampler**
 
@@ -112,7 +112,7 @@ There were two approach taken to solve the problem by creating pipelines:
 
 ## AutoML
 
-![Auto ML run]()
+![Auto ML run](https://github.com/makozi/Optimizing-an-ML-Pipeline-in-Azure/blob/main/Images/Udacity-Project-Auto-ML.PNG)
 
 - Azure AutoML is a no code environment, capable of training many different models in a short period of time like RandomForests, BoostedTrees, XGBoost, LightGBM, SGDClassifier, VotingEnsemble, etc.
 - Following config parameters are set for AutoML:
@@ -127,25 +127,25 @@ There were two approach taken to solve the problem by creating pipelines:
 
 *The best performing model was VotingEnsemble with accuracy of 0.9172*
 
-![Auto ML Best Run]()
+![Auto ML Best Run](https://github.com/makozi/Optimizing-an-ML-Pipeline-in-Azure/blob/main/Images/Udacity-Project-Auto-ML-Best-Model.PNG)
 
 
 
 ## Explanations
 
-![Auto ML Data Exploration]()
+![Auto ML Data Exploration](https://github.com/makozi/Optimizing-an-ML-Pipeline-in-Azure/blob/main/Images/Udacity-Project-Data-Exploration.PNG)
 
-![Auto ML Data Importance]()
+![Auto ML Data Importance](https://github.com/makozi/Optimizing-an-ML-Pipeline-in-Azure/blob/main/Images/Udacity-Project-Data-Importance.PNG)
 
-![Auto ML Data Importance]()
+![Auto ML Data Importance Summary](https://github.com/makozi/Optimizing-an-ML-Pipeline-in-Azure/blob/main/Images/Udacity-Project-Summary_importance.PNG)
 
 ---
 
 ## Performace Metrics
 
-![Auto ML Performace Metrics]()
+![Auto ML Performace Metrics](https://github.com/makozi/Optimizing-an-ML-Pipeline-in-Azure/blob/main/Images/Udacity-Project-AutoML-Metrics1.PNG)
 
-![Auto ML Performace Metrics]()
+![Auto ML Performace Metrics](https://github.com/makozi/Optimizing-an-ML-Pipeline-in-Azure/blob/main/Images/Udacity-Project-AutoML-Metrics2.PNG)
 
 ---
 
@@ -160,17 +160,11 @@ There were two approach taken to solve the problem by creating pipelines:
 ## Future work
 
 1. Handling implance data. 
-2. Bayesian Parameter Sampler might improve model accuracy.
-3. Implementing neural network or trees to implement model using HyperDrive. 
-
----
-
-## Proof of cluster clean up
-
-- Following is proof for custer clean up
+2. Implement neural network or trees to implement model using HyperDrive. 
 
 
-![Cluster Clean Up Proof]()
+
+
 
 
 ## License
